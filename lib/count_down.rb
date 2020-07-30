@@ -1,6 +1,6 @@
 counter = 10
-while counter > 0 do counter
-counter -= 1
-else
-  puts "Happy New Year!"
+while counter >= 1
+puts counter
+  counter -= 1
 end
+puts "Happy New Year!"
